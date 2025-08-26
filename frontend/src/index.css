@@ -1,0 +1,41 @@
+body {
+     font-family: Inter, system-ui, Arial;
+     margin: 0;
+     padding: 16px;
+     background:#f6f8fa
+}
+.app {
+    max-width: 900px;
+    margin: 0 auto
+}
+header h1 {
+    margin: 0 0 12px
+}
+.search-form {
+    display:flex;
+    gap:8px;
+    margin-bottom: 16px
+}
+.search-form input {
+    flex:1;
+    padding:8px
+}
+.search-form button {
+    padding:8px 12px
+}
+.dashboard {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap:12px
+}
+.card {
+    padding:12px;
+    border-radius:8px; background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06)
+}
+.meta {
+    display:flex;
+    gap:12px;
+    font-size: 0.9rem;
+    color:#444
+}
