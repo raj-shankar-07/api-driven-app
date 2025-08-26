@@ -8,7 +8,7 @@ export default function App() {
     const [repos, setRepos] = useState([]);
 
     async function handleSearch(q) {
-        const res = await axios.post('http://localhost:5000/api/search', { q });
+        const res = await axios.post('https://api-driven-app-backend.onrender.com/api/search', { q });
         if (res.data && res.data.data) setRepos(res.data.data);
     }
 
