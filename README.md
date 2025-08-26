@@ -17,3 +17,30 @@ The app allows users to:
 - **API Used:** GitHub Search API  
 
 ---
+
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/api-driven-app.git
+cd api-driven-app
+
+### 2. Backend Setup
+  cd backend
+  npm install
+Create a .env file inside backend/:
+  PORT=5000
+  MONGODB_URI='mongodb://127.0.0.1:27017/test'
+  GITHUB_TOKEN=your_github_token_here
+Start the backend:
+  npm run dev
+
+### 3. Frontend Setup
+  cd frontend
+  npm install
+  npm run dev
+
+### 4. Usage
+  1. Open the frontend (default: http://localhost:5173/).
+  2. Enter a keyword in the search bar.
+  3. Results will be fetched from GitHub, saved in MongoDB, and displayed on the dashboard.
