@@ -18,7 +18,7 @@ The app allows users to:
 
 ---
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -32,22 +32,26 @@ cd api-driven-app
   npm install
 ```
 Create a .env file inside backend/:
+```bash
   PORT=5000
-  MONGODB_URI='mongodb://127.0.0.1:27017/test'
+  MONGODB_URI='mongodb://127.0.0.1:27017/_your_database_name'
   GITHUB_TOKEN=your_github_token_here
+```
 Start the backend:
 ```bash
   npm run dev
 ```
+
 ### 3. Frontend Setup
 ```bash
   cd frontend
   npm install
   npm run dev
 ```
+
 ### 4. Usage
-  1. Open the frontend (default: http://localhost:5173/).
-  2. Enter a keyword in the search bar.
-  3. Results will be fetched from GitHub, saved in MongoDB, and displayed on the dashboard.
+-Open the frontend (default: http://localhost:5173/).
+-Enter a keyword in the search bar.
+-Results will be fetched from GitHub, saved in MongoDB, and displayed on the dashboard.
 
 ---
