@@ -50,8 +50,8 @@ Start the backend:
 ```
 
 ### 4. Usage
--Open the frontend (default: http://localhost:5173/).
--Enter a keyword in the search bar.
--Results will be fetched from GitHub, saved in MongoDB, and displayed on the dashboard.
+- Open the frontend (default: http://localhost:5173/).
+- Enter a keyword in the search bar.
+- Results will be fetched from GitHub, saved in MongoDB, and displayed on the dashboard.
 
 ---
