@@ -26,6 +26,7 @@ git clone https://github.com/yourusername/api-driven-app.git
 cd api-driven-app
 
 ### 2. Backend Setup
+```bash
   cd backend
   npm install
 Create a .env file inside backend/:
@@ -33,9 +34,11 @@ Create a .env file inside backend/:
   MONGODB_URI='mongodb://127.0.0.1:27017/test'
   GITHUB_TOKEN=your_github_token_here
 Start the backend:
+```bash
   npm run dev
 
 ### 3. Frontend Setup
+```bash
   cd frontend
   npm install
   npm run dev
